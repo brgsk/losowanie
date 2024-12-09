@@ -28,7 +28,7 @@ def main():
     encrypted_message = st.text_input("Wpisz zaszyfrowaną wiadomość:")
 
     # Input for Decryption Key
-    decryption_key = st.text_input("Wpisz klucz do odszyfrowania:", type="password")
+    decryption_key = st.text_input("Wpisz klucz do odszyfrowania:")
 
     # Decrypt Button
     if st.button("👀 Odszyfruj"):
